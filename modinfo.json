@@ -1,0 +1,19 @@
+{
+  "context": "server",
+  "identifier": "com.pa.destruc",
+  "display_name": "WorseLobs",
+  "description": "Simply making Lobs more expensive and worse in general.",
+  "author": "Destruc",
+  "version": "1.0.0",
+  "build": "116982",
+  "date": "2024-04-04",
+  "signature": "not yet implemented",
+  "forum": "",
+  "category": [
+    "titans"
+  ],
+  "icon": "",
+  "priority": 100,
+  "titansOnly": true,
+  "github": ""
+}
