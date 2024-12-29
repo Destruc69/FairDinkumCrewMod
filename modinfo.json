@@ -1,14 +1,14 @@
 {
   "context": "server",
   "identifier": "com.pa.fairdinkumcrewmod",
-  "display_name": "Fair Dinkum Crew Mod",
+  "display_name": "FairDinkumCrewMod",
   "description": "Tweaks unit stats and abilities to better align with our group's preferred balance for a more enjoyable and fair gameplay experience.",
   "author": "Destruc",
   "version": "1.0.0",
   "build": "116982",
   "date": "2024-04-04",
   "signature": "not yet implemented",
-  "forum": "",
+  "forum": "https://github.com/Destruc69/FairDinkumCrewMod/discussions/",
   "category": [
     "titans"
   ],
