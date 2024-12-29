@@ -1,8 +1,8 @@
 {
   "context": "server",
-  "identifier": "com.pa.destruc",
-  "display_name": "WorseLobs",
-  "description": "Simply making Lobs more expensive and worse in general.",
+  "identifier": "com.pa.fairdinkumcrewmod",
+  "display_name": "Fair Dinkum Crew Mod",
+  "description": "Tweaks unit stats and abilities to better align with our group's preferred balance for a more enjoyable and fair gameplay experience.",
   "author": "Destruc",
   "version": "1.0.0",
   "build": "116982",
@@ -15,5 +15,5 @@
   "icon": "",
   "priority": 100,
   "titansOnly": true,
-  "github": "https://github.com/Destruc69/WorseLobs"
+  "github": "https://github.com/Destruc69/FairDinkumCrewMod"
 }
