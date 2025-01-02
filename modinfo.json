@@ -13,7 +13,7 @@
     "titans",
     "units"
   ],
-  "icon": "",
+  "icon": "https://github.com/Destruc69/FairDinkumCrewMod/blob/main/logo.PNG?raw=true",
   "priority": 100,
   "titansOnly": true,
   "github": "https://github.com/Destruc69/FairDinkumCrewMod"
