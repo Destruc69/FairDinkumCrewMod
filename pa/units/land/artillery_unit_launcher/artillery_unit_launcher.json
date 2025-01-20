@@ -1,6 +1,6 @@
 {
-  "display_name": "Lob",
-  "description": "!LOC:Dox Launcher - Builds and fires Dox at nearby targets.",
+  "display_name": "Plasma Cannon",
+  "description": "!LOC:Plasma Cannon - Fires high-energy projectiles that explode on impact, causing widespread splash damage.",
   "TEMP_texelinfo": 12.901,
   "alt_area_build_pattern": [
     [
@@ -71,7 +71,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 2000,
+  "build_metal_cost": 5000,
   "command_caps": [
     "ORDER_Attack"
   ],
@@ -118,7 +118,7 @@
       "bone": "bone_pitch"
     }
   ],
-  "max_health": 500,
+  "max_health": 1000,
   "mesh_bounds": [
     15,
     15,
