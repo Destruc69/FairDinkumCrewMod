@@ -1,6 +1,6 @@
 {
-  "display_name": "Plasma Cannon",
-  "description": "!LOC:Plasma Cannon - Fires high-energy projectiles that explode on impact, causing widespread splash damage.",
+  "display_name": "Mine Tosser",
+  "description": "!LOC:Artillery - Extremely long range. Fires mines to lay siege from afar. Targets land units.",
   "TEMP_texelinfo": 12.901,
   "alt_area_build_pattern": [
     [
@@ -64,14 +64,14 @@
   ],
   "alt_area_build_type": "Sphere",
   "atrophy_cool_down": 15.0,
-  "atrophy_rate": 240.0,
+  "atrophy_rate": 25,
   "audio": {
     "selection_response": {
       "cue": "/SE/Selection/structure/artillery"
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 6000,
+  "build_metal_cost": 3000,
   "command_caps": [
     "ORDER_Attack"
   ],
