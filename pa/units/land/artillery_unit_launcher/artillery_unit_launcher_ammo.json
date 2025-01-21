@@ -9,7 +9,7 @@
       "effect_scale": 2
     }
   },
-  "full_damage_splash_radius": 5,
+  "full_damage_splash_radius": 10,
   "influence_radius": 400,
   "initial_velocity": 150.0,
   "lifetime": 30,
@@ -17,7 +17,7 @@
     "filename": "/pa/units/air/unit_shell_small/unit_shell_small.papa"
   },
   "spawn_unit_on_death": "",
-  "splash_damage": 5,
+  "splash_damage": 10,
   "splash_damages_allies": false,
-  "splash_radius": 5
+  "splash_radius": 10
 }
