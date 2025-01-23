@@ -10,7 +10,7 @@
   "carpet_wait_for_full_ammo": true,
   "firing_arc_pitch": 2,
   "firing_arc_yaw": 2,
-  "firing_standard_deviation": 10,
+  "firing_standard_deviation": 3,
   "max_firing_velocity": 10000,
   "max_range": 600,
   "min_firing_velocity": 10,
