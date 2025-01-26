@@ -1,6 +1,6 @@
 {
-  "display_name": "Mine Tosser",
-  "description": "!LOC:Artillery - Extremely long range. Fires mines to lay siege from afar. Targets land units.",
+  "display_name": "Lob",
+  "description": "!LOC:Dox Launcher - Builds and fires Dox at nearby targets.",
   "TEMP_texelinfo": 12.901,
   "alt_area_build_pattern": [
     [
@@ -71,7 +71,7 @@
     }
   },
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "build_metal_cost": 17500,
+  "build_metal_cost": 2250,
   "command_caps": [
     "ORDER_Attack"
   ],
