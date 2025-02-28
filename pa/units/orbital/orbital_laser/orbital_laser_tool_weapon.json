@@ -1,5 +1,4 @@
 {
-  //
   "ammo_capacity": 12000,
   "ammo_demand": 3000,
   "ammo_id": "/pa/units/orbital/orbital_laser/orbital_laser_ammo.json",
