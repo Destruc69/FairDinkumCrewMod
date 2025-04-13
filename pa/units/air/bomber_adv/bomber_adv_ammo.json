@@ -1,0 +1,55 @@
+{
+  "display_name": "!LOC:Hornet Tactical Missile",
+  "audio_loop": "/SE/Movement/missile/bomber_t2_fly_loop",
+  "base_spec": "/pa/ammo/base_bomb/base_bomb.json",
+  "cruise_height": 40,
+  "damage": 75,
+  "full_damage_splash_radius": 1,
+  "events": {
+    "died": {
+      "audio_cue": "/SE/Impacts/bomber_adv",
+      "effect_spec": "/pa/effects/specs/default_proj_area_explosion.pfx"
+    }
+  },
+  "flight_type": "Staged",
+  "influence_radius": 400,
+  "initial_velocity": 20.0,
+  "lifetime": 15,
+  "max_health": 1,
+  "max_velocity": 160,
+  "physics": {
+    "radius": 1,
+    "gravity_scalar": 5,
+    "ignore_gravity": true,
+    "add_to_spatial_db": true
+  },
+  "splash_damage": 75,
+  "splash_radius": 10,
+  "stages": [
+    {
+      "ignores_gravity": false,
+      "ignores_LOS": true,
+      "stage_duration": 250,
+      "stage_turn_rate": 0,
+      "apply_thrust": false,
+      "rotates_to_velocity": false
+    },
+    {
+      "ignores_gravity": true,
+      "ignores_LOS": true,
+      "stage_duration": 0,
+      "stage_turn_rate": 120,
+      "stage_change_range": 20,
+      "rotates_to_velocity": true
+    },
+    {
+      "ignores_gravity": false,
+      "ignores_LOS": false,
+      "stage_duration": 5000,
+      "stage_turn_rate": 3600,
+      "apply_thrust": true,
+      "rotates_to_velocity": true
+    }
+  ],
+  "turn_rate": 360
+}
