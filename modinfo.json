@@ -13,6 +13,11 @@
     "titans",
     "units"
   ],
+  "scenes": {
+    "shared_build": [
+      "coui://ui/mods/com.pa.destruc.fm/shared_build.js"
+    ]
+  },
   "icon": "https://github.com/Destruc69/FairDinkumCrewMod/blob/main/logo.PNG?raw=true",
   "priority": 100,
   "titansOnly": true,
