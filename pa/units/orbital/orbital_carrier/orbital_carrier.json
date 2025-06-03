@@ -1,0 +1,142 @@
+{
+  "display_name": "Exodus",
+  "description": "!LOC:Mobile Anchor - Heavy orbital weapons platform.",
+  "TEMP_texelinfo": 23.9658,
+  "area_build_separation": 75,
+  "area_build_type": "Sphere",
+  "atrophy_cool_down": 15.0,
+  "atrophy_rate": 60,
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+  "build_metal_cost": 10500,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack",
+    "ORDER_Load",
+    "ORDER_Unload",
+    "ORDER_SpecialMove"
+  ],
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/orbital"
+    },
+    "fired0": {
+      "audio_cue": "/SE/Weapons/orb/defense_satellite_fire"
+    },
+    "fired1": {
+      "audio_cue": "/SE/Weapons/orb/defense_satellite_fire_in_orbit"
+    },
+    "fired2": {
+      "audio_cue": "/SE/Weapons/orb/defense_satellite_fire_in_orbit"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/orbital"
+    }
+  },
+  "gravwell_velocity_multiplier": 6.0,
+  "guard_layer": "WL_Orbital",
+  "max_health": 2000,
+  "mesh_bounds": [23, 23, 6],
+  "model": {
+    "filename": "/pa/units/orbital/defense_satellite/defense_satellite.papa",
+    "animations": {
+      "fire": "/pa/units/orbital/defense_satellite/defense_satellite_anim_fire.papa"
+    },
+    "animtree": "/pa/anim/anim_trees/defense_satellite_anim_tree.json"
+  },
+  "navigation": {
+    "type": "orbital",
+    "acceleration": 10,
+    "brake": 10,
+    "move_speed": 8,
+    "turn_speed": 60,
+    "hover_time": -1.0
+  },
+  "physics": {
+    "radius": 15,
+    "gravity_scalar": 0.001,
+    "collision_layers": "WL_Orbital"
+  },
+  "placement_size": [50, 50],
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "orbital",
+          "channel": "sight",
+          "shape": "sphere",
+          "radius": 600
+        },
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 120
+        }
+      ]
+    }
+  },
+  "selection_icon": {
+    "diameter": 100.0
+  },
+  "spawn_layers": "WL_Orbital",
+  "tools": [
+    {
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_ground.json",
+      "aim_bone": "bone_turret01",
+      "record_index": 0,
+      "fire_event": "fired0",
+      "muzzle_bone": [
+        "socket_muzzle01_a",
+        "socket_muzzle01_b",
+        "socket_muzzle01_c"
+      ]
+    },
+    {
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_orbital.json",
+      "aim_bone": "bone_turret02",
+      "record_index": 1,
+      "fire_event": "fired1",
+      "muzzle_bone": [
+        "socket_muzzle02_right",
+        "socket_muzzle02_left"
+      ]
+    },
+    {
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_orbital.json",
+      "aim_bone": "bone_turret03",
+      "record_index": 2,
+      "fire_event": "fired2",
+      "muzzle_bone": [
+        "socket_muzzle03_right",
+        "socket_muzzle03_left"
+      ]
+    }
+  ],
+  "transporter": {
+    "capacity": 12,
+    "transportable_unit_types": "(Mobile & Land) | (Fabber & (Air | Naval))",
+    "transporter_attach_bone": "bone_payload",
+    "transportable_attach_offset": "head"
+  },
+  "attachable": {
+    "offsets": {
+      "root": [0, 0, 0]
+    }
+  },
+  "unit_types": [
+    "UNITTYPE_Custom58",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Defense",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_Transport",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "usable": true,
+  "useable": {
+    "type": "transport",
+    "range": 30
+  },
+  "wreckage_health_frac": 0.0
+}
